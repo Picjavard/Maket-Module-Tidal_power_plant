@@ -14,7 +14,7 @@
 
 | OLED-дисплей	| Arduino Nano |	Arduino Micro / Pro Micro |
 | :---:| :---:| :---:|
-| GND	| GND |	GND ![gnd](https://github.com/user-attachments/assets/74483cd4-0a6b-46c4-a864-22c41a71e26b) |
+| GND	| GND |	GND ![gnd](https://github.com/user-attachments/assets/d32596eb-8b62-4795-b663-32f8e024a26e) |
 | VCC	| 5V |	5V |
 | SCL	| A5 | 3 |
 | SDA	| A4 |	2 |
