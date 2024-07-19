@@ -21,11 +21,11 @@
 
 ### Датчик расхода воды
 
-| Датчик расхода воды	| Arduino Nano / Micro / Pro Micro |
-| :---:| :---:| 
-| GND	| GND |	
-| VCC	| 5V |	
-| SIG	| TX | 
+| Датчик расхода воды	| Arduino Nano | Arduino Micro / Pro Micro |
+| :---:| :---:|:---:|
+| GND(Черный)	| GND |	GND |
+| VCC(Красный)	| 5V/VIN | 5V/VIN |
+| SIG(Желтый)	| D2 | TX |
 
 ### Питание модуля
 
