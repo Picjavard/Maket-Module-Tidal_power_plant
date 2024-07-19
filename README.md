@@ -34,8 +34,38 @@
 | GND	| GND |	
 | +5V	| VIN |	
 
-## Код
+## Тестовый код oled-дисплея
+```cpp
+#include <GyverOLED.h>  // подключение библиотеки oled-дисплея
+GyverOLED<SSD1306_128x64, OLED_NO_BUFFER> oled;
+
+
+void setup() {
+  oled.init();              // инициализация
+  oled.clear();             // очистка дисплея
+  oled.autoPrintln(false);  // отключить автопереход на новую строку
+  oled.setScale(4);         // масштаб текста
+  oled.setCursor(0, 0);     // установка позиции курсора
+  oled.print("Init");
+  oled.update();  // обновить экран
+  delay(1000);
+}
+
+void loop() {
+  // выводим 1 раз в секунду
+  static uint32_t tmr;
+  if (millis() - tmr > 1000) {
+    tmr = millis();
+    oled.clear();
+    oled.setCursor(0, 0);
+    oled.print();
+    oled.update();
+  }
+}
 ```
+
+## Код
+```cpp
 // измеряем обороты
 // пин тахометра (желательна внешняя подтяжка 4.7к к VCC)
 
