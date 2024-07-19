@@ -16,8 +16,8 @@
 | :---:| :---:| :---:|
 | GND	| GND |	GND |
 | VCC	| 5V |	5V |
-| SCL	| A5 | D3 |
-| SDA	| A4 |	D2 |
+| SCL	| A5 | 3 |
+| SDA	| A4 |	2 |
 
 ### Датчик расхода воды
 
@@ -116,7 +116,11 @@ void loop() {
 
     oled.clear();
     oled.setCursor(0, 0);
+    oled.setScale(4);         // масштаб текста
     oled.print(tacho.getRPM());
+    oled.setCursor(0, 5);
+    oled.setScale(3);         // масштаб текста
+    oled.print("  кВт/ч");
     oled.update();
   }
 }
