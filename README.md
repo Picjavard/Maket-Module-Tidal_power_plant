@@ -12,7 +12,7 @@
 
 ### OLED-дисплей
 
-| OLED	| Arduino Nano |	Arduino Micro / Pro Micro |
+| OLED-дисплей	| Arduino Nano |	Arduino Micro / Pro Micro |
 | :---:| :---:| :---:|
 | GND	| GND |	GND |
 | VCC	| 5V |	5V |
