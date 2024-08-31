@@ -7,6 +7,9 @@
 * OLED-дисплей (1306 128x64, I2C) - https://sl.aliexpress.ru/p?key=LR1dsBY
 * Датчик расхода воды - https://sl.aliexpress.ru/p?key=LR1dsBY
 
+## 3D-модели для печати
+
+Thingiverse: https://www.thingiverse.com/thing:6749869
 
 ## Подключение
 
