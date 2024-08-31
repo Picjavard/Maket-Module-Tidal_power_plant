@@ -3,7 +3,7 @@
 
 ## Список компонентов
  
-* Микроконтроллер Arduino
+* Микроконтроллер Arduino - https://sl.aliexpress.ru/p?key=OQhsrnW
 * OLED-дисплей (1306 128x64, I2C) - https://sl.aliexpress.ru/p?key=LR1dsBY
 * Датчик расхода воды - https://sl.aliexpress.ru/p?key=LR1dsBY
 
