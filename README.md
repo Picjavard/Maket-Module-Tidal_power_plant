@@ -11,6 +11,8 @@
 
 Thingiverse: https://www.thingiverse.com/thing:6749869
 
+![Аквариум v10](https://github.com/user-attachments/assets/2b509232-d543-48a2-97e0-816bf00da911)
+
 ## Подключение
 
 ### OLED-дисплей
